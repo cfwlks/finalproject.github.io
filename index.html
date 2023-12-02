@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTLM Portfolio </title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS file -->
+	<script src="time.js" defer></script>	  
+</head>
+
+<body>
+    <header>
+		<div id="header-content">
+        <img src="your-image.jpg" alt="Your Name" style="transform: scale(1.100); filter: grayscale(50%);">
+        <h1>Caleb Fowlkes</h1>
+        <p>phone number: 864-913-7559</p>  
+		<p>Email: yfowlkcj@my.gvltec.edu</p>
+		<div id="update-time"></div>
+		<img src="gvltec.jpg" alt="College" id="header-image">
+    </div>
+
+  
+    
+    </header>
+
+    <section id="assignments">
+    <div class="container">
+        <div class="column">
+            <!-- Content for column 1 -->
+			<a href="https://cfwlks.github.io/tutorial1.github.io/">Assignment 1</a>
+			<p>i learned how to upload a website and how to create a website using html.</p>
+			<a href="https://cfwlks.github.io/tss_home.html">Assignment 2</a>
+			<p>I learned how to format text in HTML.</p>
+			<a href="https://cfwlks.github.io/cfwlkstut3.github.io/">Assignment 3</a>
+			<p>I learned how to use the column liquid layout.</p>
+        </div>
+        <div class="column">
+            <!-- Content for column 2 -->
+			<a href="https://cfwlks.github.io/ist266assign4.github.io/">Assignment 4</a>
+			<p>I learned how to use borders and colors by using css.</p>
+			<a href="https://cfwlks.github.io/istTutorial5.github.io/">Assignment 5</a>
+			<p>I learned how to resize the page to fit mobile devices using css.</p>
+			<a href="https://cfwlks.github.io/tutorial6.github.io/">Assignment 6</a>
+			<p>I learned how to make calendars and flex borders using css.</p>
+			<a href="https://cfwlks.github.io/tutorial7.github.io/">Assignment 7</a>
+			<p>I learned how to take user input using html.</p>
+        </div>
+        <div class="column">
+            <!-- Content for column 3 -->
+			<a href="https://cfwlks.github.io/tutorial8.github.io/">Assignment 8</a>
+			<p>I learned how to use audio and video using HTML.</p>
+			<a href="https://cfwlks.github.io/tutorial9.github.io/">Assignment 9</a>
+			<p>I learned how to use java script to update the website in real time.</p>
+			<a href="https://cfwlks.github.io/tut10.github.io/">Assignment 10</a>
+			<p>I learned how to make calendars using javascript</p>
+        </div>
+    </div>
+</section>
+
+<section id="table-section">
+    <table>
+        <colgroup>
+            <col style="background-color: #f2f2f2">
+            <col style="background-color: #fff">
+            <col style="background-color: #f2f2f2">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>javascript</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://cfwlks.github.io/tutorial1.github.io/">Assignment 1</a></td>
+                <td><a href="https://cfwlks.github.io/ist266assign4.github.io/">Assignment 4</a></td>
+                <td><a href="https://cfwlks.github.io/tutorial8.github.io/">Assignment 8</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://cfwlks.github.io/tss_home.html">Assignment 2</a></td>
+				<td><a href="https://cfwlks.github.io/istTutorial5.github.io/">Assignment 5</a></td>
+                <td><a href="https://cfwlks.github.io/tutorial9.github.io/">Assignment 9</a></td>
+            </tr>
+			<tr>
+                <td><a href="https://cfwlks.github.io/cfwlkstut3.github.io/">Assignment 3</a></td>
+                <td><a href="https://cfwlks.github.io/tutorial6.github.io/">Assignment 6</a></td>
+                <td><a href="https://cfwlks.github.io/tut10.github.io/">Assignment 10</a></td>
+            </tr>
+			<tr>
+			<tr>
+                <td></td>
+                <td><a href="https://cfwlks.github.io/tutorial7.github.io/">Assignment 7</a></td>
+                <td></td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</section>
+
+<section id="contact-form">
+    <form action="submit-form-url" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label><input type="checkbox" name="subscribe" value="newsletter"> Subscribe to newsletter</label>
+            <label><input type="radio" name="contact-time" value="morning"> Morning</label>
+            <label><input type="radio" name="contact-time" value="afternoon"> Afternoon</label>
+            <label><input type="radio" name="contact-time" value="evening"> Evening</label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</section>
+
+<section id="video-section">
+    <h2>My Video</h2>
+    <video width="320" height="240" controls>
+        <source src="IMG_0.MP4" type="video/MP4">
+        <source src="IMG_0-Copy.oog" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <p>Description or context for the video...</p>
+</section>
+
+
+
+
+    <footer>
+	<p>this page was created on 12/2/2023 for IST-266-W02 at greenville technical college</p>
+        <!-- Footer content (e.g., course info, date, etc.) -->
+    </footer>
+</body>
+</html>

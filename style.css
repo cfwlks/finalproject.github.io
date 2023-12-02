@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background: #333;
+    color: #008080;
+    text-align: center;
+    padding: 20px;
+}
+#header-image {
+    max-height: 100px; /* Adjust based on your preference */
+    /* Add other styles for your image */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1; /* Each column takes equal width */
+    margin: 0 10px; /* Spacing between columns */
+    padding: 10px;
+    background-color: v;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        margin: 10px 0;
+    }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+colgroup col {
+    width: 33.33%;
+}
+#contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Brown background */
+    color: #008080; /* Teal text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact-form fieldset {
+    border: none;
+    margin-top: 15px;
+}
+
+#contact-form legend {
+    font-weight: bold;
+}
+
+#contact-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #008080; /* Teal background */
+    color: white; /* White text for buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #006666; /* Darker teal on hover */
+}
+
+#video-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#video-section video {
+    max-width: 100%;
+    height: auto;
+}
+
+#current-time {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: white; /* Choose a color that suits your header */
+    font-size: 20px; /* Adjust as needed */
+}
+
